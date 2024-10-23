@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#register{
+    background: url('https://media.istockphoto.com/id/1203763961/photo/stacked-credit-cards.jpg?s=612x612&w=0&k=20&c=bEEGZwG120WKDClhmltyAtP0kPMzNir49P4JO3pcies=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+#register form{
+   width: 50%;
+   margin: auto;
+   text-align: center;
+   background-color: #fff;
+}
+#register h4{
+    color: rgb(5, 40, 118);
+    font-size: 25px;
+    font-family: "SUSE", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#register i{
+    font-size: 15px;
+}
+#register #log-btn{
+    width: 85%;
+    /* border: 2px solid rgb(5, 40, 118); */
+    background-color: rgb(5, 40, 118);
+    color: #fff;
+}
+#register #log-btn:hover{
+    background: transparent;
+    color: rgb(5, 40, 118);
+    border: 2px solid rgb(5, 40, 118);
+    font-weight: 600;
+}
+

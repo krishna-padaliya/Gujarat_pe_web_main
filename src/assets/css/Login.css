@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login2 h4{
+    color: rgb(5, 40, 118);
+    font-size: 25px;
+    font-family: "SUSE", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.login2 i{
+    font-size: 15px;
+}
+.login2 a{
+    text-decoration: none;
+    color: rgb(5, 40, 118);
+    font-family: "SUSE", sans-serif;
+    font-weight: 500;
+}
+.login2 #log-btn{
+    width: 420px;
+    /* border: 2px solid rgb(5, 40, 118); */
+    background-color: rgb(5, 40, 118);
+    color: #fff;
+}
+.login2 #log-btn:hover{
+    background: transparent;
+    color: rgb(5, 40, 118);
+    border: 2px solid rgb(5, 40, 118);
+    font-weight: 600;
+}

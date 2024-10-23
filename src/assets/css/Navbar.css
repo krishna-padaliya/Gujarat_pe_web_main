@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.email,
+.wallet {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(5, 40, 118);
+  font-family: "SUSE", sans-serif;
+}
+#alertsDropdown {
+  color: rgb(5, 40, 118);
+}
+.email h6,
+.wallet h6 {
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: copy;
+}
+#dropdown-header {
+  background-color: rgb(5, 40, 118);
+  border: 1px solid rgb(5, 40, 118);
+  font-size: 15px;
+}
+#navbar-dropdown i {
+  color: rgb(5, 40, 118);
+}
+#navbar-dropdown span {
+  color: rgb(72, 72, 72);
+  font-weight: 600;
+  font-size: 14px;
+}

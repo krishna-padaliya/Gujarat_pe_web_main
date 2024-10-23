@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .navbar-brand, .nav-link {
+    color: #003366;
+    font-size: 20px;
+    font-weight: 500;
+   font-family: "Jost", sans-serif;
+    letter-spacing: 1px;
+  }
+  .navbar-brand, .nav-link:hover{
+    color: #e54805;
+  }
+
+  #nav-login{
+    padding-left: 25px;
+    padding-right: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    border: 2px solid rgb(5, 40, 118);
+    background-color: rgb(5, 40, 118);
+    color: #fff;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+}
+#nav-login:hover{
+    background: transparent;
+    color: rgb(5, 40, 118);
+    border: 2px solid rgb(5, 40, 118);
+    font-weight: 600;
+}
+
+  
