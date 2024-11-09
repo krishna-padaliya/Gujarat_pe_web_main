@@ -13,7 +13,13 @@ import Error from "./pages/Error.jsx";
 import Service from "./pages/Service.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
+// admin
+import Dashboard from "./admin/Dashboard.jsx";
+import SalesReport from "./admin/SalesReport.jsx";
+import MyCommision from "./admin/MyCommision.jsx";
+import SupportTicket from "./admin/SupportTicket.jsx";
+import LedgerReport from "./admin/LedgerReport.jsx";
+
 
 function App() {
   return (
@@ -27,6 +33,10 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/sales_report" element={<SalesReport />} />
+          <Route path="/ledger_report" element={<LedgerReport />} />
+          <Route path="/my_commision" element={<MyCommision />} />
+          <Route path="/support_ticket" element={<SupportTicket />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>
